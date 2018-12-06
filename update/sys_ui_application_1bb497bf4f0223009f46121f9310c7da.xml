@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Loaner Request</name>
+        <order/>
+        <roles>x_174902_loaner_re.loaner_request_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-05 11:48:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1bb497bf4f0223009f46121f9310c7da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_174902_loaner_re">b43f0bbb4f0223009f46121f9310c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">b43f0bbb4f0223009f46121f9310c76c</sys_scope>
+        <sys_update_name>sys_ui_application_1bb497bf4f0223009f46121f9310c7da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-05 11:48:24</sys_updated_on>
+    </sys_ui_application>
+</record_update>
