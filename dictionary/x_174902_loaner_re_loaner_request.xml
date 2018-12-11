@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Loaner Request" max_length="40" name="x_174902_loaner_re_loaner_request" type="collection"/>
+    <element extends="task" label="Loaner Request" max_length="40" name="x_174902_loaner_re_loaner_request" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="sc" label="Depot" max_length="40" name="depot" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Santa Clara" sequence="0" value="sc"/>
+                <element inactive_on_update="false" label="New York" sequence="1" value="ny"/>
+                <element inactive_on_update="false" label="London" sequence="2" value="london"/>
+                <element inactive_on_update="false" label="Singapore" sequence="3" value="singapore"/>
+                <element inactive_on_update="false" label="Sydney" sequence="4" value="sydney"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
+            </choice>
+        </element>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="mobile phone" label="Item Type" max_length="40" name="item_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="mobile phone"/>
+                <element inactive_on_update="false" label="Projector" sequence="2" value="projector"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_requsted" reference="sys_user" type="reference"/>
+    </element>
 </database>
