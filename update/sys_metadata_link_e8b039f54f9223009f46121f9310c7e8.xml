@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cbd103cc4f1a23009f46121f9310c7ea</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_174902_loaner_re_loaner_request">
+    <x_174902_loaner_re_loaner_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to display_value="Charlie Whitherspoon">46b87022a9fe198101a78787e40d7547</assigned_to>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci display_value="*ASSET-IBM">2dfd7c8437201000deeabfc8bcbe5d56</cmdb_ci>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <depot>ny</depot>
+        <description>dsfsa</description>
+        <due_date/>
+        <end_date>2018-12-29 06:16:03</end_date>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <item_type>mobile phone</item_type>
+        <knowledge>false</knowledge>
+        <location/>
+        <location_to_be_used>PUNE</location_to_be_used>
+        <made_sla>true</made_sla>
+        <number>LNR002003</number>
+        <opened_at>2018-12-06 05:04:24</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <other/>
+        <parent display_value="CHG0000003">46e9b4afa9fe198101026e122b85f442</parent>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <short_description>zdsds</short_description>
+        <sla_due/>
+        <start_date>2018-12-11 06:16:00</start_date>
+        <state>13</state>
+        <sys_class_name>x_174902_loaner_re_loaner_request</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 05:04:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbd103cc4f1a23009f46121f9310c7ea</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 09:03:01</sys_updated_on>
+        <time_worked/>
+        <u_requsted display_value="Alejandra Prenatt">22826bf03710200044e0bfc8bcbe5dec</u_requsted>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_174902_loaner_re_loaner_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-11 09:39:10</sys_created_on>
+        <sys_id>e8b039f54f9223009f46121f9310c7e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LNR002003</sys_name>
+        <sys_package display_value="Loaner Request" source="x_174902_loaner_re">b43f0bbb4f0223009f46121f9310c76c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">b43f0bbb4f0223009f46121f9310c76c</sys_scope>
+        <sys_update_name>sys_metadata_link_e8b039f54f9223009f46121f9310c7e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 09:39:10</sys_updated_on>
+        <tablename>x_174902_loaner_re_loaner_request</tablename>
+    </sys_metadata_link>
+</record_update>
